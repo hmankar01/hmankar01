@@ -1,30 +1,46 @@
-# Hi, I'm Harsh Mankar 👋
-### MS Information Science Student @ NJIT | AI & Machine Learning Engineer
+# Harsh Rajendra Mankar
+### Candidate for Master of Science in Information Science at New Jersey Institute of Technology
 
 ---
 
-## 🚀 Featured Projects
-
-### [GridLLM: Agentic AI for Energy Markets](https://github.com/hmankar01/LLM-Portfolio)
-- [cite_start]Orchestrated a **multi-agent system** using **LangGraph** to handle 400+ regulatory protocols for the CAISO energy grid[cite: 45, 47].
-- [cite_start]Implemented **Domain-Adaptive Pre-Training (DAPT)** on Llama 3.2-3B with **QLORA** to master technical energy jargon[cite: 49].
-
-### [Financial Fraud Detection System](https://github.com/hmankar01/LLM-Portfolio)
-- [cite_start]Engineered a big data pipeline for **780,000+ transactions**, utilizing **XGBoost and CatBoost** to achieve 94% recall[cite: 34, 36, 320].
-- [cite_start]Developed an evaluation framework using **Confusion Matrices and ROC-AUC curves** to translate risks for stakeholders[cite: 35].
+## Technical Overview
+I am a Software and Machine Learning Engineer focused on building high-performance AI systems and resilient backend architectures. I have a particular professional interest in the financial sector, where I enjoy the challenge of engineering order from messy, high-dimensional financial datasets to uncover actionable alpha and risk insights.
 
 ---
 
-## 🛠️ Tech Stack
-- [cite_start]**Languages:** Python (Pandas, PyTorch, TensorFlow), Go, SQL, JavaScript[cite: 30, 154, 306].
-- [cite_start]**Cloud/DevOps:** AWS (EC2, S3), Azure (OpenAI, Data Factory), Docker, CI/CD[cite: 30, 117, 309].
-- [cite_start]**AI/ML:** RAG Pipelines, Multi-Agent Systems, Time-Series Forecasting, Transformer Fine-tuning[cite: 30, 116, 307].
+## Selected Technical Projects
+
+### GridLLM: Agentic AI for California Electricity Market Operations
+- Orchestrated a multi-agent system using LangGraph to navigate 400+ regulatory protocols for the California Independent System Operator (CAISO).
+- Executed Domain-Adaptive Pre-Training (DAPT) on Llama 3.2-3B using QLORA to specialize the model for technical energy jargon and market logs.
+- Developed a Hybrid Architecture combining LLM reasoning with Association Rule Mining on two years of time-series data to prevent hallucinations in mathematical logic.
+
+### Crypto Market Return Forecasting | Top 20% Global Rank
+- Engineered over 800 market microstructure and statistical features from a high-frequency cryptocurrency dataset consisting of more than 500,000 records.
+- Architected a Deep Learning Conv1D and MLP neural network in Python using PyTorch, implementing a custom Pearson loss function to optimize for signal-to-noise ratios.
+
+### Financial Fraud Detection System
+- Developed a production-grade big data pipeline processing 780,000+ transactions for credit risk detection.
+- Utilized XGBoost and CatBoost classifiers to achieve a 94% recall rate, validating model stability through rigorous time-series backtesting and statistical evaluation.
+
+### Real-Time Voice AI Architecture (Crisis Response)
+- Engineered a Voice AI Agent using Azure OpenAI and Twilio to provide immediate crisis response support with sub-800ms latency.
+- Implemented a Retrieval-Augmented Generation (RAG) pipeline to ground model responses in a validated global database of 10,000+ emergency records.
 
 ---
 
-## 📫 Connect with me
-[![Portfolio](https://img.shields.io/badge/View-My_Portfolio-blue?style=for-the-badge&logo=googledrive&logoColor=white)](https://hmankar01.github.io/LLM-Portfolio/Portfolio.pdf)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hmankar01)
+## Core Competencies
+
+- **Programming:** Python (PyTorch, TensorFlow, Scikit-learn), Go (Golang), SQL (PostgreSQL), JavaScript.
+- **Cloud & DevOps:** Amazon Web Services (EC2, S3), Microsoft Azure (OpenAI, Data Factory), Docker, CI/CD Pipelines.
+- **Data Engineering:** Apache Spark, ETL Pipeline Development, Redis Caching, Big Data Processing.
+- **Specializations:** Large Language Models (LLMs), Agentic Workflows, Time-Series Forecasting, Credit Risk Modeling.
 
 ---
-[cite_start]*MS Information Science @ New Jersey Institute of Technology* [cite: 4, 285]
+
+## Professional Links
+- [Technical Portfolio](https://hmankar01.github.io/LLM-Portfolio/Portfolio.pdf)
+- [LinkedIn Profile](https://linkedin.com/in/hmankar01)
+
+---
+*Newark, New Jersey, USA*
