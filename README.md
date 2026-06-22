@@ -1,40 +1,44 @@
 # Harsh Rajendra Mankar
-### Candidate for Master of Science in Information Science at New Jersey Institute of Technology
+### Applied Machine Learning & Forward Deployed AI Engineer
 
 ---
 
 ## Technical Overview
-I am a Software and Machine Learning Engineer focused on building high-performance AI systems and resilient backend architectures. I have a particular professional interest in the financial sector, where I enjoy the challenge of engineering order from messy, high-dimensional financial datasets to uncover actionable alpha and risk insights.
+I am an Applied Machine Learning and Forward Deployed Engineer specializing in production-grade AI infrastructure, LLM-agent orchestration, and classical fraud/risk modeling. I focus on building high-performance, asynchronous systems that integrate deeply with legacy enterprise backends (ERPs, CRMs) to reduce operational latency and drive measurable ROI. My core expertise spans from deploying deterministic multi-agent workflows with strict safety guardrails to engineering mathematically rigorous predictive pipelines for high-stakes financial and ad-tech environments.
 
 ---
 
 ## Selected Technical Projects
 
-### GridLLM: Agentic AI for California Electricity Market Operations
-- Orchestrated a multi-agent system using LangGraph to navigate 400+ regulatory protocols for the California Independent System Operator (CAISO).
-- Executed Domain-Adaptive Pre-Training (DAPT) on Llama 3.2-3B using QLORA to specialize the model for technical energy jargon and market logs.
-- Developed a Hybrid Architecture combining LLM reasoning with Association Rule Mining on two years of time-series data to prevent hallucinations in mathematical logic.
+### Enterprise Multi-Agent Orchestration & ERP Integration
+- Spearheaded an asynchronous multi-agent orchestration engine handling incoming CRM queues via FastAPI webhooks on Railway.
+- Routed workflows through OpenAI GPT-4o with LangSmith tracing and agent safety guardrails to securely automate dynamic NetSuite address updates, order cancellations, and real-time tracking retrievals.
+- Optimized accounting operations by deploying GCP-hosted backend pipelines integrating NetSuite APIs, automating financial reconciliation and PDF invoice extraction to flag billing discrepancies and eliminate manual entry.
 
-### Crypto Market Return Forecasting | Top 20% Global Rank
-- Engineered over 800 market microstructure and statistical features from a high-frequency cryptocurrency dataset consisting of more than 500,000 records.
-- Architected a Deep Learning Conv1D and MLP neural network in Python using PyTorch, implementing a custom Pearson loss function to optimize for signal-to-noise ratios.
+### Multimodal GenAI & Retail Media ML Pipelines
+- Deployed a LangChain-orchestrated Flask/Streamlit pipeline integrating Claude 4.6 Opus and Gemini Veo 3 APIs, analyzing historical campaign databases and applying LLM-as-judge evals to continuously generate high-converting multimodal creatives.
+- Orchestrated an ML pipeline processing 3.4M retail records, utilizing GMM clustering and Ollama Qwen-14B product embeddings indexed in pgvector.
+- Optimized Real-Time Bidding (RTB) and CTR/CVR prediction, immediately halting ad-spend on discontinued SKUs and surfacing unadvertised inventory matching high-ROAS bestseller profiles.
 
-### Financial Fraud Detection System
-- Developed a production-grade big data pipeline processing 780,000+ transactions for credit risk detection.
-- Utilized XGBoost and CatBoost classifiers to achieve a 94% recall rate, validating model stability through rigorous time-series backtesting and statistical evaluation.
+### Financial Fraud Detection & Transaction Monitoring
+- Architected an end-to-end transaction monitoring pipeline on 780K+ Capital One records, executing rigorous feature engineering and applying SMOTE to counter severe class imbalance.
+- Trained XGBoost and CatBoost classifiers optimized for real-time scoring, maximizing AUC-ROC and achieving 94% recall through precision-recall curve analysis and threshold tuning.
+- Simulated production model monitoring environments to track concept drift across 15+ performance metrics, validating via time-based splits for production realism.
 
-### Real-Time Voice AI Architecture (Crisis Response)
-- Engineered a Voice AI Agent using Azure OpenAI and Twilio to provide immediate crisis response support with sub-800ms latency.
-- Implemented a Retrieval-Augmented Generation (RAG) pipeline to ground model responses in a validated global database of 10,000+ emergency records.
+### GridLLM: Agentic AI for Electricity Market Operations
+- Developed a LangGraph multi-agent orchestration system to navigate California Independent System Operator (CAISO) regulations, implementing Model Context Protocol (MCP) for consistent state synchronization across coordinated agents.
+- Fine-tuned foundation model LLaMA 3.2-3B via Domain-Adaptive Pre-Training on 400 electricity PDFs plus instruction tuning on 2K market samples using QLoRA.
+- Mined 2+ years of time-series data via association rule mining, validated through RAGAS evaluations and LangSmith to monitor response quality and cost-per-call.
 
 ---
 
 ## Core Competencies
 
-- **Programming:** Python (PyTorch, TensorFlow, Scikit-learn), Go (Golang), SQL (PostgreSQL), JavaScript.
-- **Cloud & DevOps:** Amazon Web Services (EC2, S3), Microsoft Azure (OpenAI, Data Factory), Docker, CI/CD Pipelines.
-- **Data Engineering:** Apache Spark, ETL Pipeline Development, Redis Caching, Big Data Processing.
-- **Specializations:** Large Language Models (LLMs), Agentic Workflows, Time-Series Forecasting, Credit Risk Modeling.
+- **Programming:** Python (Pandas, NumPy, PyTorch), SQL (PostgreSQL), Go, TypeScript / JavaScript.
+- **LLM & Agentic AI:** LangGraph, LangChain, Multi-Agent Orchestration, Model Context Protocol (MCP), RAG Pipelines, Vector Databases (Pinecone, pgvector), QLoRA Fine-Tuning.
+- **LLM Ops & Evaluation:** LLM-as-Judge, RAGAS, LangSmith Tracing, Telemetry/Observability, Agent Guardrails & Safety Constraints.
+- **Engineering & Cloud:** Terraform (IaC), Airflow, dbt, FastAPI, Webhooks, AWS (EC2, S3), GCP, Docker, CI/CD.
+- **ML & Fraud Modeling:** XGBoost, CatBoost, GMM Clustering, SMOTE, AUC-ROC, Precision-Recall Curves, Real-Time Model Monitoring.
 
 ---
 
@@ -43,4 +47,4 @@ I am a Software and Machine Learning Engineer focused on building high-performan
 - [LinkedIn Profile](https://linkedin.com/in/hmankar01)
 
 ---
-*Newark, New Jersey, USA*
+*Newark, NJ (NYC Metro Area)*
