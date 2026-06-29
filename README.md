@@ -10,6 +10,12 @@ I am an Applied Machine Learning and Forward Deployed Engineer specializing in p
 
 ## Selected Technical Projects
 
+### Application Pilot — Multi-Model Job-Search Triage & Auto-Apply Agent (RPA)
+- Engineered a cost-optimized multi-model pipeline routing bulk triage through DeepSeek V4 Pro — applying zero-tolerance visa/clearance/seniority filters, classifying roles into three targeted resume tracks, and scoring 1–10 before handing top matches to Claude Sonnet 4.6 for high-value prefill.
+- Built an ATS-resolution layer with ScrapeGraphAI + DeepSeek V4 Flash that converts aggregator/redirect links (ZipRecruiter, Indeed) into direct application URLs (Greenhouse, Lever, Workday, Ashby), backed by a regex fast-path to skip the headless browser when possible.
+- Automated Indeed Easy Apply via Playwright with a hard human-in-the-loop guardrail that pauses on any screening question not derivable from the resume — never fabricating personal information.
+- Added a SQLite dedup tracker that drops already-applied (company, title) pairs before any LLM call, eliminating wasted API tokens and logging every submission with status, domain, and resume used.
+
 ### Enterprise Multi-Agent Orchestration & ERP Integration
 - Spearheaded an asynchronous multi-agent orchestration engine handling incoming CRM queues via FastAPI webhooks on Railway.
 - Routed workflows through OpenAI GPT-4o with LangSmith tracing and agent safety guardrails to securely automate dynamic NetSuite address updates, order cancellations, and real-time tracking retrievals.
